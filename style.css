@@ -5,11 +5,12 @@
 }
 
 :root {
-    --primary-color: #C47335;
-    --secondary-color: #E8A87C;
-    --text-color: #59260B;
-    --background-color: #FFFDD0;
+    --primary-color: #A8DADC;      
+    --secondary-color: #F4A9A8;    
+    --text-color: #2C3E50;         
+    --background-color: #FAF3E0;   
 }
+
 
 body {
     background-color: var(--background-color);
@@ -29,7 +30,7 @@ h2, h3 {
 
 header {
     background-color: var(--primary-color);
-    color: var(--background-color);
+    color: var(--text-color);
     text-align: center;
     border-bottom: 8px solid var(--secondary-color);
 }
@@ -88,7 +89,7 @@ img {
 
 footer {
     background-color: var(--primary-color);
-    color: var(--background-color);
+    color: var(--text-color);
     margin: 0 auto;
     padding: 20px;
     border-top: 2px solid var(--secondary-color);
