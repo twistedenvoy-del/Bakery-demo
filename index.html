@@ -36,26 +36,26 @@
         </section>
         <section id="order">
             <h2>Place order</h2>
-            <form action="">
-                <label for="name">Name</label>
+            <form action="" id="orderForm">
+                <label for="name">Name<span style="color: red;">*</span></label>
                 <input type="text" name="name" id="name">
-                <label for="number">Phone Number</label>
+                <label for="number">Phone Number<span style="color: red;">*</span></label>
                 <input type="tel" name="number" id="number">
-                <label for="email">Email Address</label>
+                <label for="email">Email Address<span style="color: red;">*</span></label>
                 <input type="email" name="email" id="email">
-                <label for="product">Please pick an item.</label>
+                <label for="product">Please pick an item.<span style="color: red;">*</span></label>
                 <select name="product" id="product">
                     <option value="Pie">Pie</option>
                     <option value="Cake">Cake</option>
                     <option value="cookie">Cookies</option>
                 </select>
-                <label for="date">Pickup Date</label>
+                <label for="date">Pickup Date<span style="color: red;">*</span></label>
                 <input type="date" name="date" id="date">
-                <label for="time">Pickup Time</label>
+                <label for="time">Pickup Time<span style="color: red;">*</span></label>
                 <input type="time" name="time" id="time">
                 <label for="special-notes">Special Instructions</label>
                 <textarea name="special-notes" id="special-notes"></textarea>
-                <button>Place Order</button>
+                <button type="button" id="submitBtn">Place Order</button>
             </form>
         </section>
         <section id="contact">
@@ -66,5 +66,6 @@
     </main>
 
     <footer>&copy; 2025 Chi's Cucina</footer>
+    <script src="script.js"></script>
 </body>
 </html>
